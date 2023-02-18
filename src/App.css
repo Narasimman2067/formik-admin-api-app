@@ -1,38 +1,209 @@
 .App {
+ background-color:aquamarine;
+}
+
+.App {
   text-align: center;
+  margin: 0%;
+  padding: 0px;
+  scroll-behavior: smooth;
+ 
+  height:filled;
+}
+html{
+  scroll-behavior: smooth;
+  
+}
+.footer-div{
+  padding-top: 20%;
+  padding-bottom: 2%;
+  margin: 0%;
+  font-size: 25px;
+
+  font-family:  cursive;
+
+
+}
+.login{
+  font-family:algerian;
+  color: brown;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.main-card{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap: 2rem;
+  border-radius: 3%;
+  background-color: red; 
+
+  
+ 
+
+padding:5% ;
+}
+.btn-div{
+  margin-top: 15%;
+  justify-content: center;
+}
+.btn{
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-compopnent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-div{
+  padding: 10px;
+  font-family:algerian ;
+  color: rgb(9, 87, 243);
+  text-decoration:underline;
+}
+.description-div{
+  width: 100%;
+  height:100%;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.content-div{
+  padding-top: 10%;
+  border: 1px solid black;
+  box-shadow: 2px 5px 10px black;
+  text-transform: capitalize;
+  background-color: bisque !important;
+ 
+  
+}
+.search-btn{
+  display:flex;
+  justify-content: center;
+margin: 50%;
+
+  background-color: beige;
+  color: black;
+
+  border-radius: 1%;
+ 
+ 
+}
+.input-div{
+  display:grid;
+  
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 5px black;
+ 
+  padding-top: 2%;
+  gap: 1rem;
+  background-color:bisque;
+  border-radius: 2%;
+}
+
+
+
+@media (max-width:1000px) 
+{
+  .main-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    /* background-color:blue !important; */
+    padding-left:2%;
+    box-shadow: 5px 5px 10px red !important;
+    height: auto;
+   }
+   .btn-div{
+    margin: 5%;
+    
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
+@media (max-width:800px)
+{
+  .main-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    /* background-color:red; */
+    padding: 2%;
+   
+    
+    height: auto;
+   }
+   .maincard .btn-div{
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
 }
+@media ( max-width:600px) 
+{
+  .main-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    /* background-color:blue ; */
+    padding: 2%;
+   
+    
+    height: auto;
+   }
+   .maincard .btn-div{
+  padding: 10%;
+  margin: 2%;
+    
+  }
+}
+@media ( max-width:400px) 
+{
+  .main-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:1rem;
+    background-color:blue;
+    padding: 2%;
+   
+    
+    height: auto;
+   }
+   .maincard .btn-div{
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+}
+@media (max-width:300px) 
+{
+  .main-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:1rem;
+    background-color:greenyellow;
+    padding: 2%;
+    height: auto;
+  }
+   .btn-div{
+    margin: 1%;
+    padding: 5%;
+  }
+}
+  
 
-@keyframes App-logo-spin {
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

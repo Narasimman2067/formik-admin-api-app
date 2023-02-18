@@ -1,0 +1,451 @@
+.App {
+    text-align: center;
+    margin: 0%;
+    padding: 0px;
+    scroll-behavior: smooth;
+  
+   
+    height:filled;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App {
+    text-align: center;
+    margin: 0%;
+    padding: 0px;
+    scroll-behavior: smooth;
+   
+    height:filled;
+  }
+  html{
+    scroll-behavior: smooth;
+    
+  }
+  .footer-div{
+    padding-top: 20%;
+    padding-bottom: 2%;
+    margin: 0%;
+    font-size: 25px;
+  
+    font-family:  cursive;
+  
+  
+  }
+  .login{
+    font-family:algerian;
+    color: brown;
+  }
+  
+  
+  .main-card{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 2rem;
+    border-radius: 3%;
+    background-color: red; 
+  
+    
+   
+  
+  padding:5% ;
+  }
+  .btn-div{
+    margin-top: 15%;
+    justify-content: center;
+  }
+  .btn{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .main-compopnent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .head-div{
+    padding: 10px;
+    font-family:algerian ;
+    color: rgb(9, 87, 243);
+    text-decoration:underline;
+  }
+  .description-div{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  
+  .content-div{
+    padding-top: 10%;
+    border: 1px solid black;
+    box-shadow: 2px 5px 10px black;
+    text-transform: capitalize;
+    background-color: bisque !important;
+   
+    
+  }
+  .search-btn{
+    display:flex;
+    justify-content: center;
+  margin: 50%;
+  
+    background-color: beige;
+    color: black;
+  
+    border-radius: 1%;
+   
+   
+  }
+  .input-div{
+    display:grid;
+    
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 5px black;
+   
+    padding-top: 2%;
+    gap: 1rem;
+    background-color:bisque;
+    border-radius: 2%;
+  }
+  
+  
+  
+  @media (max-width:1000px) 
+  {
+    .main-card{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap:1rem;
+      /* background-color:blue !important; */
+      padding-left:2%;
+      box-shadow: 5px 5px 10px red !important;
+      height: auto;
+     }
+     .btn-div{
+      margin: 5%;
+      
+    }
+  }
+  
+  
+  @media (max-width:800px)
+  {
+    .main-card{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap:1rem;
+      /* background-color:red; */
+      padding: 2%;
+     
+      
+      height: auto;
+     }
+     .maincard .btn-div{
+      display: flex;
+      flex-wrap: nowrap;
+      
+    }
+  }
+  @media ( max-width:600px) 
+  {
+    .main-card{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap:1rem;
+      /* background-color:blue ; */
+      padding: 2%;
+     
+      
+      height: auto;
+     }
+     .maincard .btn-div{
+    padding: 10%;
+    margin: 2%;
+      
+    }
+  }
+  @media ( max-width:400px) 
+  {
+    .main-card{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap:1rem;
+      background-color:blue;
+      padding: 2%;
+     
+      
+      height: auto;
+     }
+     .maincard .btn-div{
+      display: flex;
+      flex-wrap: nowrap;
+      
+    }
+  }
+  @media (max-width:300px) 
+  {
+    .main-card{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap:1rem;
+      background-color:greenyellow;
+      padding: 2%;
+      height: auto;
+    }
+     .btn-div{
+      margin: 1%;
+      padding: 5%;
+    }
+  }
+    
+  
+  
+  /* @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+  
+html{
+  background-color: aquamarine;
+  box-sizing: content-box;
+}
+.login-div{
+  padding: 10%;
+  margin-top: 0%;
+  background-color:yellowgreen;
+  border-radius: 2% 30%;
+  box-shadow: 2px 10px 20px black;
+ font-family: algerian;
+  margin-bottom: 0%;
+  color:blue;
+  width: fit-content;
+  margin-left: 25%;
+  
+}
+.color-div{
+  padding: 10%;
+  /* margin-top: 5%; */
+  background-color:bisque;
+  border-radius: 2%;
+ 
+  margin-bottom: 20%;
+  color:blue;
+
+  
+  
+}
+
+.welcome-div{
+  display:grid;
+  justify-content: center;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size:20px;
+  font-style: italic;
+  font-family:algerian;
+  background-color:blueviolet;
+ border-radius: 2%;
+  box-shadow: 5px 5px 10px black;
+  color:greenyellow;
+  width: 80vw;
+  height: 58vh;
+} 
+.nopage{
+    background-color: bisque !important;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 40px;
+}
+.toolbtn span{
+  color: black;
+}
+.toolbtn{
+  display:grid;
+  gap: 2rem;
+  background-image:repeating-conic-gradient(yellow,white,red);
+}
+.edit-div{
+  font-family: algerian;
+  margin: 0%;
+  padding-top: 0%;
+  color: blueviolet;
+  background-color: aqua;
+  display: flex;
+  justify-content:center;
+}
+.btn-basic:hover{
+  background-color: aqua;
+  font-size:large;
+
+ 
+
+}
+.btn-basic{
+  display: flex;
+  gap: 2rem;
+  margin-right: 10px;
+  border-radius:50% 10%;
+  width: 50px;
+  height: 5vh;
+  box-shadow: 2px 1px 2px black;
+  align-items: center;
+  
+  cursor: pointer;
+  background-color:greenyellow;
+}
+.head{
+  margin-top: 0%;
+  font-family: algerian;
+  color: blue;
+  text-decoration: underline;
+}
+.login-page{
+  display:grid;
+    height:auto;
+    padding:1%;
+    margin-left: 25%;
+ 
+    width: 50vw;
+    height: 40vh;
+   
+    border-radius:2%;
+    background-color:rgb(8, 224, 228);
+  
+
+}
+.adddata{
+ 
+  display: flex;
+  justify-content: right;
+
+}
+.profile-div{
+  
+    display:grid;
+    height:auto;
+    padding:1%;
+margin-left: 25%;
+ 
+    width: 50vw;
+    height: 40vh;
+   font-family: 'Times New Roman', Times, serif;
+    border-radius: 10%;
+    background-color:rgb(209, 128, 29);
+   
+    
+}
+.id-pwd{
+  display:flex;
+  gap: 2rem;
+  padding: 2%;
+  background-color: yellow;
+  border:2px solid black;
+  width: fit-content;
+  margin-left:40% ;
+  margin-top: 5%;
+ 
+}
+@media (max-width:900px)
+
+{
+  .toolbtn span{
+display: visible;
+  }
+ 
+  .welcome-div{
+    display: flex;
+    justify-content: center;
+    margin-top:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size:20px;
+    font-style: italic;
+    font-family:algerian;
+    background-image:linear-gradient(orange 20%,white 80%,green 10%);
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    box-shadow: 5px 5px 10px black;
+    color:blue;
+    width: 80vw;
+    height: 58vh;
+} 
+.color-div{
+  display:grid;
+  height:auto;
+  padding:1%;
+ font-family: 'Times New Roman', Times, serif;
+  margin-top:20%;
+  margin-bottom:0%;
+  padding-top:1%;
+  width: 50vw;
+  height:40vh;
+  color:blue;
+  margin-right: 10px;
+  border-radius: 5% 25%;
+  background-color:bisque;
+  box-shadow:5px 5px 10px black
+  
+  }
+  .search{
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    height: 100px;
+
+   
+  }
+  .login-div{
+    padding: 10%;
+    box-shadow: 2px 10px 20px black;
+    background-color:orange;
+    border-radius:30% 5%;
+   font-family: algerian;
+    margin-bottom: 20%;
+    color:blue;
+    width: fit-content;
+    margin-left: 13%;
+    
+  }
+  .id-pwd{
+    display:flex;
+    gap: 2rem;
+    background-color: yellow;
+    border:2px solid black;
+    width: fit-content;
+    margin-left:30% ;
+    margin-top: 5%;
+   
+  }
+  .login-page{
+    display:grid;
+      height:auto;
+      padding:1%;
+      margin-left: 25%;
+   
+      width: 50vw;
+      height: 40vh;
+     
+      border-radius: 5%;
+      background-color:rgb(8, 228, 19);
+    
+  
+  }
+}
