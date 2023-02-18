@@ -1,5 +1,5 @@
 import { Button, TextField } from '@mui/material'
-import React , { useState }  from 'react'
+import React, { useEffect }   from 'react'
 import { useHistory } from 'react-router-dom'
 import Base from '../Base/Base'
 import * as yup from 'yup'
@@ -17,6 +17,11 @@ export const studentValidationSchema = yup.object({
 
 const AddStudents = ({studentsData, setStudents}) => {
 
+    useEffect(()=>{
+        if (!localStorage.getItem("user-name")){
+          history.replace("/register")
+        }
+        }, [])
   const {values, handleChange, handleSubmit, handleBlur, errors, touched} = useFormik({
     initialValues : {
       name : "",
@@ -79,7 +84,7 @@ const AddStudents = ({studentsData, setStudents}) => {
     >
               <div className="input-section">
      
-<Form onSubmit={handleSubmit}>
+<form onSubmit={handleSubmit}>
      <TextField 
      fullWidth 
      label="Enter the Name"
@@ -124,13 +129,13 @@ const AddStudents = ({studentsData, setStudents}) => {
        type="submit"
        color="success"
        variant="contained"
-       onClick={()=>history.push("/details")}
+      
     //    onSubmit={addNewStudent}
      >
        Add Data
      </Button>
 
-     </Form>
+     </form>
 
    </div>
     </Base>
